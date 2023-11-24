@@ -3,7 +3,7 @@ module "ControlTowerManagement" {
 
   control_tower_parameters = {
     AccountEmail              = "apor+sbxctmgmt@tv2.dk"
-    AccountName               = "CTMgmt"
+    AccountName               = "APOR SBX CT-MGMT"
     ManagedOrganizationalUnit = "Root"
     SSOUserEmail              = "apor+sbxctmgmt@tv2.dk"
     SSOUserFirstName          = "AWS Control Tower"
