@@ -1,11 +1,11 @@
-module "deletionaccount" {
+module "deletionaccount2" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "apor+deletionaccount@tv2.dk"
-    AccountName               = "deletionaccount"
-    ManagedOrganizationalUnit = "Labs"
-    SSOUserEmail              = "apor+deletionaccountsso@tv2.dk"
+    AccountEmail              = "apor+deletionaccount2@tv2.dk"
+    AccountName               = "deletionaccount2"
+    ManagedOrganizationalUnit = "Sandbox"
+    SSOUserEmail              = "apor+deletionaccount2sso@tv2.dk"
     SSOUserFirstName          = "Anders"
     SSOUserLastName           = "Porsbo"
   }
@@ -23,5 +23,5 @@ module "deletionaccount" {
     group = "non-prod"
   }
 
-  account_customizations_name = "deletionaccount"
+  account_customizations_name = "deletionaccount2"
 }
