@@ -20,5 +20,5 @@ module "yaml_parser_to_aftrequesttesting_account" {
 
   custom_fields = try(each.value.custom_fields == null ? {} : each.value.custom_fields, local.default.custom_fields)
 
-  account_customizations_name = lookup(each.value, "AccountCustomizationsName", local.default.SSOUserLastName)
+  account_customizations_name = lookup(each.value, "AccountCustomizationsName", local.default.AccountCustomizationsName)
 }
