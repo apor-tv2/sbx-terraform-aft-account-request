@@ -3,7 +3,7 @@
       - AccountEmail: aws+sbx-sandbox2@tv2.dk
         AccountName: APOR Sandbox2
         ManagedOrganizationalUnit: "Sandbox"
-        AccountCustomizationsName: apor_sandbox2
+        AccountCustomizationsName: "sandbox2"
 
     account:
       - AccountEmail: aws+sbx-sandbox3@tv2.dk
