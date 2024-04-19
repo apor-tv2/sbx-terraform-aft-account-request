@@ -5,7 +5,7 @@
         ManagedOrganizationalUnit: "Sandbox"
         AccountCustomizationsName: "sandbox2"
 
-    account:
       - AccountEmail: aws+sbx-sandbox3@tv2.dk
         AccountName: APOR Sandbox3
         ManagedOrganizationalUnit: "Sandbox"
+        AccountCustomizationsName: "sandbox3"
