@@ -1,11 +1,11 @@
-module "TestEnrollment" {
+module "TestEnrollment1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "apor+testenrollment@tv2.dk"
-    AccountName               = "testenrollment"
+    AccountEmail              = "apor+testenrollment1@tv2.dk"
+    AccountName               = "testenrollment1"
     ManagedOrganizationalUnit = "sandbox"
-    SSOUserEmail              = "apor+enrollment@tv2.dk"
+    SSOUserEmail              = "apor+enrollment1@tv2.dk"
     SSOUserFirstName          = "Anders"
     SSOUserLastName           = "Porsbo"
   }
@@ -23,5 +23,5 @@ module "TestEnrollment" {
     group = "non-prod"
   }
 
-  #account_customizations_name = "testenrollment"
+  account_customizations_name = "testenrollment1"
 }
