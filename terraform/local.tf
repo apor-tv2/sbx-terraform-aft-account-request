@@ -12,8 +12,6 @@ locals {
 
     custom_fields       = {}
 
-    account_customizations_name = null
-
   }
 }
 
