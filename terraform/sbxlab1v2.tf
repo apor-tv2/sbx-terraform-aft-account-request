@@ -3,7 +3,7 @@ module "sbxLab1v2" {
 
   control_tower_parameters = {
     AccountEmail              = "apor+SbxLab1v2@tv2.dk"
-    AccountName               = "SbxLab1v2renamed"
+    AccountName               = "SbxLab1v2renamed20240429"
     ManagedOrganizationalUnit = "Labs"
     SSOUserEmail              = "apor+SbxLab1v2sso@tv2.dk"
     SSOUserFirstName          = "Anders"

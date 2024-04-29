@@ -3,7 +3,7 @@ module "test_aft1_12_2" {
 
   control_tower_parameters = {
     AccountEmail              = "apor+test_aft1_12_2@tv2.dk"
-    AccountName               = "test aft 1.12.2 rerun"
+    AccountName               = "test aft 1.12.2 renamed"
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "apor+sbxctmgmt@tv2.dk"
     SSOUserFirstName          = "Anders"
