@@ -23,5 +23,5 @@ module "TestEnrollment3" {
     group = "non-prod"
   }
 
-  account_customizations_name = "testenrollment3"
+  account_customizations_name = "standard"
 }

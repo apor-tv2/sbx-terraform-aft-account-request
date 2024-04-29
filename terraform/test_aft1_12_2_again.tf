@@ -23,5 +23,5 @@ module "test_again_aft1_12_2" {
     group = "non-prod"
   }
 
-  account_customizations_name = "test_again_aft1_12_2"
+  account_customizations_name = "standard"
 }

@@ -3,14 +3,14 @@
       - AccountEmail: aws+sbx-sandbox3@tv2.dk
         AccountName: APOR Sandbox3
         ManagedOrganizationalUnit: "Sandbox"
-        AccountCustomizationsName: "sandbox3"
+        AccountCustomizationsName: "standard"
 
       - AccountEmail: aws+sbx-sandbox2@tv2.dk
         AccountName: APOR Sandbox2
         ManagedOrganizationalUnit: "Sandbox"
-        AccountCustomizationsName: "sandbox2"
+        AccountCustomizationsName: "standard"
 
       - AccountEmail: aws+sbx-sandbox4@tv2.dk
         AccountName: APOR Sandbox4
         ManagedOrganizationalUnit: "Sandbox"
-        AccountCustomizationsName: "sandbox4"
+        AccountCustomizationsName: "sandbox"
