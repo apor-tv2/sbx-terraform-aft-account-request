@@ -4,7 +4,7 @@ module "TestEnrollment3" {
   control_tower_parameters = {
     AccountEmail              = "apor+testenrollment3@tv2.dk"
     AccountName               = "testenrollment3"
-    ManagedOrganizationalUnit = "sandbox"
+    ManagedOrganizationalUnit = "Sandbox"
     SSOUserEmail              = "apor+testenrollment3@tv2.dk"
     SSOUserFirstName          = "Anders"
     SSOUserLastName           = "Porsbo"
@@ -22,5 +22,6 @@ module "TestEnrollment3" {
   custom_fields = {
     group = "non-prod"
   }
+
   account_customizations_name = "testenrollment3"
 }
