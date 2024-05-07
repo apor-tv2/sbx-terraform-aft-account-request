@@ -1,11 +1,11 @@
-module "sbxLab1v2" {
+module "sbxlab10" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "apor+SbxLab1v2@tv2.dk"
-    AccountName               = "SbxLab1v2renamed20240429"
+    AccountEmail              = "apor+sbxlab10@tv2.dk"
+    AccountName               = "sbxlab10"
     ManagedOrganizationalUnit = "Labs"
-    SSOUserEmail              = "apor+SbxLab1v2sso@tv2.dk"
+    SSOUserEmail              = "apor+sbxlab10sso@tv2.dk"
     SSOUserFirstName          = "Anders"
     SSOUserLastName           = "Porsbo"
   }
@@ -23,5 +23,5 @@ module "sbxLab1v2" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sbxLab1v2"
+  account_customizations_name = "sbxlab10"
 }
