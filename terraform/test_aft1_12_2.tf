@@ -11,12 +11,14 @@ module "test_aft1_12_2" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "CostCenterNumber" = "4693"
+    "CostCenterBrief" = "DCP"
+    "Usage" = "testing if aft 1.12.2 can create a new account"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_requested_by = "APOR"
+    change_reason       = "create new account with upgraded AFT"
   }
 
   custom_fields = {

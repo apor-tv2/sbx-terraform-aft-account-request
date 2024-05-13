@@ -11,12 +11,14 @@ module "sbxlab10" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "CostCenterNumber" = "4693"
+    "CostCenterBrief" = "DCP"
+    "Usage" = "lab account, this account is used for testing renaming of accounts"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_requested_by = "APOR"
+    change_reason       = "adding account tags"
   }
 
   custom_fields = {

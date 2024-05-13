@@ -5,7 +5,10 @@ locals {
     SSOUserFirstName    = "AFT-sbx"
     SSOUserLastName     = "Automation"
 
-    account_tags        = {}
+    account_tags        = {
+	    "CostCenterNumber" = "4693"
+	    "CostCenterBrief" = "DCP"
+    }
 
     change_requested_by = "YAML"
     change_reason       = "added from YAML"

@@ -11,12 +11,14 @@ module "sbxaudit" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "CostCenterNumber" = "4693"
+    "CostCenterBrief" = "DCP"
+    "Usage" = "Audit with AWS Config, SecurityHub and GuardDuty"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_requested_by = "APOR"
+    change_reason       = "Adding account tags"
   }
 
   custom_fields = {

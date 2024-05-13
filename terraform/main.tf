@@ -11,7 +11,9 @@ module "sandbox" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "CostCenterNumber" = "4693"
+    "CostCenterBrief" = "DCP"
+    "Usage" = "experiments sandbox1"
   }
 
   change_management_parameters = {

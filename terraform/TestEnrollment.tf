@@ -11,7 +11,9 @@ module "TestEnrollment3" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "CostCenterNumber" = "4693"
+    "CostCenterBrief" = "DCP"
+    "Usage" = "Testing Enrollment of accounts"
   }
 
   change_management_parameters = {
