@@ -6,8 +6,8 @@ locals {
     SSOUserLastName     = "Automation"
 
     account_tags        = {
-	    "CostCenterNumber" = "4693"
-	    "CostCenterBrief" = "DCP"
+#	    "CostCenterNumber" = "4693"
+#	    "CostCenterBrief" = "DCP"
     }
 
     change_requested_by = "YAML"
