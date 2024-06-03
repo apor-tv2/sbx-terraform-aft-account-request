@@ -32,8 +32,8 @@ account:
 #            change_reason = "Account Vending"
 #    }
 #
-  - AccountEmail: aws-pei-sandbox2-test@tv2.dk
-    AccountName: PEI - Sandbox2 - sbxaft testing
+  - AccountEmail: aws-pei-sandbox3-test@tv2.dk
+    AccountName: PEI - Sandbox3 - sbxaft testing
     AccountCustomizationsName: standard
     ManagedOrganizationalUnit: "Sandbox"
     account_tags:
