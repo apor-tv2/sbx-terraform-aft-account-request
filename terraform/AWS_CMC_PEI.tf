@@ -35,6 +35,7 @@ module "PEISandbox" {
     ManagedOrganizationalUnit = "Sandbox"
     SSOUserFirstName          = "AFT-sbx"
     SSOUserLastName           = "Automation"
+    SSOUserEmail              = "aws+sbx-sso@tv2.dk"
   }
 
   account_tags = {
