@@ -47,21 +47,21 @@ module "PEISandbox" {
   }
 
   change_management_parameters = {
-      change_requested_by = "APOR Test for PEI Team"
-      change_reason = "Account Vending"
+      "change_requested_by" = "APOR Test for PEI Team"
+      "change_reason" = "Account Vending"
   }
 
   custom_fields = {
-    EnvGroup = "non-prod"
-    vpc_cidr = "10.64.18.0/23"
-    vpc_cidr_private = "10.64.18.0/24"
-    vpc_cidr_private_AZa = "10.64.18.0/26"
-    vpc_cidr_private_AZb = "10.64.18.64/26"
-    vpc_cidr_private_AZc = "10.64.18.128/26"
-    vpc_cidr_prublic = "10.64.19.0/24"
-    vpc_cidr_public_AZa = "10.64.19.0/26"
-    vpc_cidr_public_AZb = "10.64.19.64/26"
-    vpc_cidr_public_AZc = "10.64.19.128/26"
+    "EnvGroup" = "non-prod"
+    "vpc_cidr" = "10.64.18.0/23"
+    "vpc_cidr_private" = "10.64.18.0/24"
+    "vpc_cidr_private_AZa" = "10.64.18.0/26"
+    "vpc_cidr_private_AZb" = "10.64.18.64/26"
+    "vpc_cidr_private_AZc" = "10.64.18.128/26"
+    "vpc_cidr_prublic" = "10.64.19.0/24"
+    "vpc_cidr_public_AZa" = "10.64.19.0/26"
+    "vpc_cidr_public_AZb" = "10.64.19.64/26"
+    "vpc_cidr_public_AZc" = "10.64.19.128/26"
   }
 
   account_customizations_name = "standard"
