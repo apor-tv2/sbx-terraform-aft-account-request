@@ -41,7 +41,7 @@ module "PEISandbox" {
 
   #account_tags = {}
   account_tags = {
-        "TV2:Domain" = "Content Planning & Management"
+        "TV2:Domain" = "Content Planning and Management"
         "TV2:Team" = "CMC"
         "TV2:CostCenterNumber" = "4642"
         "TV2:AccountEnvironment" = "Sandbox"
