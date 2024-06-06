@@ -40,24 +40,25 @@ module "PEISandbox" {
   }
 
   #account_tags = {}
-  #account_tags = {
-  #      "Domain" = "Content Planning & Management"
-  #      "Team" = "CMC"
-  #      "CostCenterNumber" = "4642"
-  #      "AccountEnvironment" = "Sandbox"
-  #      "ApplicationOrUsage" = "PEI"
-  #}
   account_tags = {
-    "Owner"       = "john.doe@amazon.com"
-    "ABC:Owner"       = "john.doe@amazon.com"
-    "ABC:Division"    = "ENT"
-    "ABC:Environment" = "Dev"
-    "ABC:CostCenter"  = "123456"
-    "ABC:Vended"      = "true"
-    "ABC:DivCode"     = "102"
-    "ABC:BUCode"      = "ABC003"
-    "ABC:Project"     = "123456"
+        "TV2:Domain" = "Content Planning & Management"
+        "TV2:Team" = "CMC"
+        "TV2:CostCenterNumber" = "4642"
+        "TV2:AccountEnvironment" = "Sandbox"
+        "TV2:ApplicationOrUsage" = "PEI"
+        "TV2:EnvGroup" = "non-prod"
   }
+  #account_tags = {
+  #  "Owner"       = "john.doe@amazon.com"
+  #  "ABC:Owner"       = "john.doe@amazon.com"
+  #  "ABC:Division"    = "ENT"
+  #  "ABC:Environment" = "Dev"
+  #  "ABC:CostCenter"  = "123456"
+  #  "ABC:Vended"      = "true"
+  #  "ABC:DivCode"     = "102"
+  #  "ABC:BUCode"      = "ABC003"
+  #  "ABC:Project"     = "123456"
+  #}
 
   change_management_parameters = {
       "change_requested_by" = "APOR Test for PEI Team"
