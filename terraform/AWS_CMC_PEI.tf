@@ -48,6 +48,7 @@ module "PEISandbox" {
   #      "ApplicationOrUsage" = "PEI"
   #}
   account_tags = {
+    "Owner"       = "john.doe@amazon.com"
     "ABC:Owner"       = "john.doe@amazon.com"
     "ABC:Division"    = "ENT"
     "ABC:Environment" = "Dev"
