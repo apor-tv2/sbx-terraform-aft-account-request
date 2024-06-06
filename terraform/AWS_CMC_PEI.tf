@@ -39,7 +39,7 @@ module "PEISandbox" {
     SSOUserEmail              = "aws+sbx-sso@tv2.dk"
   }
 
-  account_tags = {}
+  #account_tags = {}
   #account_tags = {
   #      "Domain" = "Content Planning & Management"
   #      "Team" = "CMC"
