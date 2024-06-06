@@ -26,6 +26,7 @@ module "yaml_parser_generic_accounts" {
 
   account_customizations_name = each.value.AccountCustomizationsName
 }
+
 module "PEISandbox" {
   source = "./modules/aft-account-request"
 
@@ -38,13 +39,14 @@ module "PEISandbox" {
     SSOUserEmail              = "aws+sbx-sso@tv2.dk"
   }
 
-  account_tags = {
-	"Domain" = "Content Planning & Management"
-	"Team" = "CMC"
-	"CostCenterNumber" = "4642"
-	"AccountEnvironment" = "Sandbox"
-	"ApplicationOrUsage" = "PEI"
-  }
+  account_tags = {}
+  #account_tags = {
+  #      "Domain" = "Content Planning & Management"
+  #      "Team" = "CMC"
+  #      "CostCenterNumber" = "4642"
+  #      "AccountEnvironment" = "Sandbox"
+  #      "ApplicationOrUsage" = "PEI"
+  #}
 
   change_management_parameters = {
       "change_requested_by" = "APOR Test for PEI Team"
