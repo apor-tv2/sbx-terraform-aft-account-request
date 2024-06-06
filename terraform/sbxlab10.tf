@@ -22,7 +22,7 @@ module "sbxlab10" {
   }
 
   custom_fields = {
-    group = "non-prod"
+    group = "non-prod-changed"
   }
 
   account_customizations_name = "sbxlab10"
