@@ -67,6 +67,7 @@ module "PEISandbox" {
 
   custom_fields = {
     "EnvGroup" = "non-prod"
+    "create_vpc_and_subnets" = "yes"
     "vpc_cidr" = "10.64.18.0/23"
     "vpc_cidr_private" = "10.64.18.0/24"
     "vpc_cidr_private_AZa" = "10.64.18.0/26"
