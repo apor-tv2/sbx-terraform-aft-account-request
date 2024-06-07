@@ -78,5 +78,5 @@ module "PEISandbox" {
     "vpc_cidr_public_AZc" = "10.64.19.128/26"
   }
 
-  account_customizations_name = "standard"
+  account_customizations_name = "PEIsandbox"
 }
