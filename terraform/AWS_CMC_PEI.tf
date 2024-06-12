@@ -11,7 +11,9 @@ module "yaml_parser_generic_accounts" {
     SSOUserLastName           = lookup(each.value, "SSOUserLastName", local.default.SSOUserLastName)
   }
 
-  account_tags = try(each.value.account_tags == null ? {} : each.value.account_tags, local.default.account_tags)
+  account_tags = {
+          try(each.value.account_tags == null ? {} : each.value.account_tags, local.default.account_tags)
+  }
 
   change_management_parameters = {
     change_requested_by = try(each.value.change_management_parameters.change_requested_by, local.default.change_requested_by)
