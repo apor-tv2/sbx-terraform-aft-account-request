@@ -4,10 +4,7 @@ account:
     AccountName: PEI - Sandbox3 - sbxaft testing
     AccountCustomizationsName: PEIsandbox
     ManagedOrganizationalUnit: "Sandbox"
-    account_tags: {
-      - Team: "CMC" 
-      - Domain: "Content Planning and Management"
-    }
+    account_tags: { Team: "CMC" , Domain: "Content Planning and Management" }
     #   - Domain: "Content Planning and Management"
     #   - Team: "CMC"
     #   - CostCenterCode: "4642"
