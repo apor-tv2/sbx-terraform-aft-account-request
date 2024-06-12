@@ -9,6 +9,8 @@ account:
       - Team: "CMC"
       - CostCenterCode: "4642"
       - AccountEnvironment: "Sandbox"
+      - ApplicationOrUsage: "PEI"
+      - EnvGroup: "non-prod"
     change_management_parameters:
       - change_requested_by: "APOR Test for PEI Team"
       - change_reason: "Account Vending"
