@@ -5,9 +5,10 @@ account:
     AccountCustomizationsName: PEIsandbox
     ManagedOrganizationalUnit: "Sandbox"
     account_tags:
+        { "FOO" }
     #   - Domain: "Content Planning and Management"
     #   - Team: "CMC"
-      - CostCenterCode: "4642"
+    #  - CostCenterCode: "4642"
     #   - AccountEnvironment: "Sandbox"
     #   - ApplicationOrUsage: "PEI"
     #   - EnvGroup: "non-prod"
