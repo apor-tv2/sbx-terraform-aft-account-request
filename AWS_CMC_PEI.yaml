@@ -4,19 +4,19 @@ account:
     AccountName: PEI - Sandbox3 - sbxaft testing
     AccountCustomizationsName: PEIsandbox
     ManagedOrganizationalUnit: "Sandbox"
-    account_tags:
-      - Domain: "Content Planning and Management"
-      - Team: "CMC"
-      - CostCenterCode: "4642"
-      - AccountEnvironment: "Sandbox"
-      - ApplicationOrUsage: "PEI"
-      - EnvGroup: "non-prod"
-    change_management_parameters:
-      - change_requested_by: "APOR Test for PEI Team"
-      - change_reason: "Account Vending"
-    custom_fields:
-      - EnvGroup: "non-prod"
-      - create_vpc_and_subnets: "no"
+    # account_tags:
+    #   - Domain: "Content Planning and Management"
+    #   - Team: "CMC"
+    #   - CostCenterCode: "4642"
+    #   - AccountEnvironment: "Sandbox"
+    #   - ApplicationOrUsage: "PEI"
+    #   - EnvGroup: "non-prod"
+    # change_management_parameters:
+    #   - change_requested_by: "APOR Test for PEI Team"
+    #   - change_reason: "Account Vending"
+    # custom_fields:
+    #   - EnvGroup: "non-prod"
+    #   - create_vpc_and_subnets: "no"
       #- vpc_cidr: "10.XX.18.0/23"
       #- vpc_cidr_private: "10.XX.18.0/24"
       #- vpc_cidr_private_AZa: "10.XX.18.0/26"

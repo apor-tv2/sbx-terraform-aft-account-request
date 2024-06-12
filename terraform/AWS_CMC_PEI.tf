@@ -45,7 +45,7 @@ module "PEISandbox" {
         "TV2:Team" = "CMC"
         "TV2:CostCenterNumber" = "4642"
         "TV2:AccountEnvironment" = "Sandbox"
-        "TV2:ApplicationOrUsage" = "PEI"
+        "TV2:ApplicationOrUsage" = "PEI sandbox testing"
         "TV2:EnvGroup" = "non-prod"
   }
   #account_tags = {
