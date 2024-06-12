@@ -12,18 +12,19 @@ account:
             ApplicationOrUsage: "PEI",
             EnvGroup: "non-prod"
     }
-    # change_management_parameters:
-    #   - change_requested_by: "APOR Test for PEI Team"
-    #   - change_reason: "Account Vending"
-    # custom_fields:
-    #   - EnvGroup: "non-prod"
-    #   - create_vpc_and_subnets: "no"
-      #- vpc_cidr: "10.XX.18.0/23"
-      #- vpc_cidr_private: "10.XX.18.0/24"
-      #- vpc_cidr_private_AZa: "10.XX.18.0/26"
-      #- vpc_cidr_private_AZb: "10.XX.18.64/26"
-      #- vpc_cidr_private_AZc: "10.XX.18.128/26"
-      #- vpc_cidr_prublic: "10.XX.19.0/24"
-      #- vpc_cidr_public_AZa: "10.XX.19.0/26"
-      #- vpc_cidr_public_AZb: "10.XX.19.64/26"
-      #- vpc_cidr_public_AZc: "10.XX.19.128/26"
+    change_management_parameters:
+      - change_requested_by: "APOR Test for PEI Team"
+      - change_reason: "Account Vending"
+    custom_fields: {
+      #vpc_cidr: "10.XX.18.0/23",
+      #vpc_cidr_private: "10.XX.18.0/24",
+      #vpc_cidr_private_AZa: "10.XX.18.0/26",
+      #vpc_cidr_private_AZb: "10.XX.18.64/26",
+      #vpc_cidr_private_AZc: "10.XX.18.128/26",
+      #vpc_cidr_prublic: "10.XX.19.0/24",
+      #vpc_cidr_public_AZa: "10.XX.19.0/26",
+      #vpc_cidr_public_AZb: "10.XX.19.64/26",
+      #vpc_cidr_public_AZc: "10.XX.19.128/26",
+      EnvGroup: "non-prod",
+      create_vpc_and_subnets: "no"
+    }
