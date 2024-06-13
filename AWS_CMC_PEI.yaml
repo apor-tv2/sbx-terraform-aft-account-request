@@ -10,7 +10,7 @@ account:
             CostCenterCode: "4642",
             AccountEnvironment: "Sandbox",
             ApplicationOrUsage: "PEI",
-            EnvGroup: "non-prod"
+            EnvGroup: "non-prod-test"
     }
     change_management_parameters:
       - change_requested_by: "APOR Test for PEI Team"
