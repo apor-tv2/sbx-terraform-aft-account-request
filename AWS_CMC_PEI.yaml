@@ -25,6 +25,6 @@ account:
       #vpc_cidr_public_AZa: "10.XX.19.0/26",
       #vpc_cidr_public_AZb: "10.XX.19.64/26",
       #vpc_cidr_public_AZc: "10.XX.19.128/26",
-      EnvGroup: "non-prod",
+      EnvGroup: "non-prod-test",
       create_vpc_and_subnets: "no"
     }
