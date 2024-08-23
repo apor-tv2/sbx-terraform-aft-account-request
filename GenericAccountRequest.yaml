@@ -1,0 +1,56 @@
+---
+account:
+#  - AccountEmail: aws-sbx-ipam@tv2.dk
+#    # AccountName|<--- 1 ------ Max 50 chars -------------- 50 --->|
+#    AccountName: SBX IPAM Prod
+#    # ManagedOrganizationalUnit must exist in AWS Organizations
+#    # Valid values include the following:
+#    # Development|Production|Sandbox|Stage
+#    ManagedOrganizationalUnit: "Sandbox"
+#    # AccountCustomizationsName:
+#    # - Until you need actual AFT customizations, choose standard
+#    # AccountCustomizationsName: aws-dal-prod
+#    AccountCustomizationsName: standard
+#    change_management_parameters:
+#      - change_requested_by: "DAL Team"
+#      - change_reason: "New Account for application development experiments"
+#    # AWS Organizational Tags - can not be seen in the vended account
+#    account_tags: {
+#      ApplicationName: "DALProd",
+#      ApplicationFullname: "DAL Prod",
+#      Domain: "Audience Interactions",
+#      Team: "DAL",
+#      TeamFullname: "Discovery and Live",
+#      CostCenterCode: "4610",
+#      Environment: "Prod",
+#      # EnvironmentClass: Production|Staging|Development|Sandbox
+#      EnvironmentClass: "Production",
+#    }
+#    # Custom fields are stored in SSM Paramter Store
+#    custom_fields: {
+#      # below required fields from version 1.0
+#      custom_fields_version: 1.1,
+#      # EnvironmentClass Valid values: Production|Staging|Development|Sandbox
+#      EnvironmentClass: "Production",
+#      create_vpc_and_subnets: "yes",
+#      # required fields if create_vpc_and_subnets == yes
+#      # ?? 255 pr subnet
+#      vpc_cidr: "10.66.26.0/23",
+#      vpc_cidr_private: "10.66.26.0/24",
+#      vpc_cidr_private_AZa: "10.66.26.0/26",
+#      vpc_cidr_private_AZb: "10.66.26.64/26",
+#      vpc_cidr_private_AZc: "10.66.26.128/26",
+#      vpc_cidr_public: "10.66.27.0/24",
+#      vpc_cidr_public_AZa: "10.66.27.0/26",
+#      vpc_cidr_public_AZb: "10.66.27.64/26",
+#      vpc_cidr_public_AZc: "10.66.27.128/26",
+#    }
+#    # valid but optional from custom_fields_version 1.1
+#    # vpc_private_subnet_tags: {
+#    #   kubernetes.io/role/internal-elb: "1",
+#    #   karpenter.sh/discovery: "true",
+#    # }
+#    # # valid but optional from custom_fields_version 1.1
+#    # vpc_public_subnet_tags: {
+#    #   kubernetes.io/role/elb: "1",
+#    # }
