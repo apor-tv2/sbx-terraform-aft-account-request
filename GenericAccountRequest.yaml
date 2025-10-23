@@ -3,7 +3,7 @@ account:
   - AccountEmail: aws+sbx-sandbox5@tv2.dk
     AccountName: APOR Sandbox5
     ManagedOrganizationalUnit: "Sandbox"
-    AccountCustomizationsName: "standard"
+    AccountCustomizationsName: "standard_failure"
 #  - AccountEmail: aws-sbx-ipam@tv2.dk
 #    # AccountName|<--- 1 ------ Max 50 chars -------------- 50 --->|
 #    AccountName: SBX IPAM Prod
