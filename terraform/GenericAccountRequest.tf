@@ -22,12 +22,12 @@ module "yaml_parser_to_generic_accoount_request" {
   # stored as ssm parameters in the target account as:
   # - /aft/account-request/custom-fields/CUSTOM_FIELD_NAME
   # - Reference: https://learn.hashicorp.com/tutorials/terraform/aws-control-tower-aft
-  custom_fields = (each.value.custom_fields.custom_fields_version >= 1.1 ? (
-          merge(
-                each.value.custom_fields,
-                {vpc_private_subnet_tags: jsonencode(try(each.value.vpc_private_subnet_tags == null ? {} : each.value.vpc_private_subnet_tags,{}))},
-                {vpc_public_subnet_tags: jsonencode(try(each.value.vpc_public_subnet_tags == null ? {} : each.value.vpc_public_subnet_tags,{}))},
-          )) : (each.value.custom_fields))
+  #custom_fields = (each.value.custom_fields.custom_fields_version >= 1.1 ? (
+  #        merge(
+  #              each.value.custom_fields,
+  #              {vpc_private_subnet_tags: jsonencode(try(each.value.vpc_private_subnet_tags == null ? {} : each.value.vpc_private_subnet_tags,{}))},
+  #              {vpc_public_subnet_tags: jsonencode(try(each.value.vpc_public_subnet_tags == null ? {} : each.value.vpc_public_subnet_tags,{}))},
+  #        )) : (each.value.custom_fields))
 
 
   account_customizations_name = each.value.AccountCustomizationsName
